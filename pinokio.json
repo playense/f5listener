@@ -1,0 +1,14 @@
+{
+  "id": "f5_gradio_event_listener_api",
+  "name": "F5 Listener API",
+  "description": "Waits for TTS events and returns result on success.",
+  "entry": "python -m uvicorn f5_gradio_event_listener_api:app --host 0.0.0.0 --port 8099",
+  "language": "python",
+  "port": 8099,
+  "requirements": [
+    "fastapi",
+    "uvicorn",
+    "requests",
+    "sseclient-py"
+  ]
+}
